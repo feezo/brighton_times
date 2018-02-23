@@ -90,7 +90,6 @@ header, nav, footer, section, article, div {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .nav__list {
@@ -401,21 +400,21 @@ footer a {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 630px) {
   .top-news {
-    width: 40%;
+    width: 50%;
     order: -2;
-    background-color: #ff0000;
   }
   .scores {
-    width: 60%;
+    width: 50%;
     order: -1;
   }
+
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 850px) {
 .content {
-  width: 1024px;
+  width: 850px;
   margin-right: auto;
   margin-left: auto;
   }
