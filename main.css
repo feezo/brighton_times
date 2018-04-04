@@ -59,6 +59,8 @@ header, nav, footer, section, article, div {
 }
 
 .header__inner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -106,19 +108,19 @@ header, nav, footer, section, article, div {
  }
 
  .nav__list {
-   width: 100%;
-   padding: 0;
-   margin: 0;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
  }
 
  .nav__item {
    box-sizing: border-box;
-   display: inline-block;
    width: 15%;
    text-align: center;
    line-height: 24px;
    padding: 24px;
    text-transform: uppercase;
+   list-style: none;
  }
 
  .nav a {
@@ -169,7 +171,7 @@ main {
   float: left;
   width: 100%;
   position: relative;
-  background-image: url("./images/dog.jpg");
+  background-image: url("./images/dog-min.jpg");
   background-size: cover;
   height: 300px;
 }
